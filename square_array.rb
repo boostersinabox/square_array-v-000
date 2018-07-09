@@ -1,6 +1,6 @@
 def square_array(array)
-  array.each do |number| 
-    result = number**number
-    puts "The number #{number} squared is #{result}."
+  array.each do |numbers| 
+    result = numbers**numbers
+    puts "The number #{numbers} squared is #{result}."
   end
 end
